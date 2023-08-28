@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { ColorValue, StyleSheet } from 'react-native';
+import { ColorValue, Platform, StyleSheet } from 'react-native';
 import { Defs, Ellipse, RadialGradient, Stop, Svg } from 'react-native-svg';
 
 interface Reflex {
@@ -29,7 +29,10 @@ export const Reflex = memo(({ color }: Reflex) => (
 
 const styles = StyleSheet.create({
   container: {
-    top: -5,
+    top: Platform.select({
+      android: -15,
+      default: -5,
+    }),
     height: 40,
   },
 });
