@@ -1,3 +1,5 @@
+![Simulator Screenshot - iPhone 13 - 2023-08-28 at 11 58 00](https://github.com/Omelyan/exam26/assets/18326050/14f73532-128d-418e-8860-37997be5abe7)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
