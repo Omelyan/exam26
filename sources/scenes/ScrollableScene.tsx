@@ -48,6 +48,8 @@ const styles = StyleSheet.create({
 
   container: {
     backgroundColor: '#F6ECC9',
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
   },
 
   contentContainer: {
